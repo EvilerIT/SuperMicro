@@ -122,8 +122,18 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int viewBehind=0x7f010002;
     }
     public static final class color {
+        public static final int blue_normal=0x7f07000b;
         public static final int com_sina_weibo_sdk_blue=0x7f070000;
         public static final int com_sina_weibo_sdk_loginview_text_color=0x7f070001;
+        public static final int green_click=0x7f070007;
+        public static final int green_normal=0x7f070008;
+        public static final int light_gray=0x7f070009;
+        public static final int light_yellow=0x7f07000a;
+        public static final int red_click=0x7f070005;
+        public static final int red_normal=0x7f070006;
+        public static final int white=0x7f070002;
+        public static final int yellow_click=0x7f070003;
+        public static final int yellow_normal=0x7f070004;
     }
     public static final class dimen {
         /**      <dimen name="weibosdk_dialog_left_margin">10dp</dimen>
@@ -197,42 +207,72 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int title_bar=0x7f02002d;
     }
     public static final class id {
-        public static final int action_settings=0x7f08000d;
+        public static final int action_settings=0x7f080022;
+        public static final int add_at_sign_tx=0x7f080012;
+        public static final int add_expression_tx=0x7f080014;
+        public static final int add_pic_tx=0x7f080011;
+        public static final int add_topic_tx=0x7f080013;
+        public static final int button1=0x7f08001e;
+        public static final int button2=0x7f08001f;
+        public static final int button3=0x7f080020;
         public static final int fullscreen=0x7f080003;
         public static final int id_iv_left=0x7f080005;
         public static final int id_iv_right=0x7f080006;
         public static final int id_left_menu_frame=0x7f080009;
         public static final int id_listview_categories=0x7f080008;
-        public static final int id_right_menu_frame=0x7f08000b;
+        public static final int id_right_menu_frame=0x7f08000c;
         public static final int id_viewpager=0x7f080007;
         public static final int left=0x7f080000;
-        public static final int ly_main_weixin=0x7f08000a;
+        public static final int login_bt=0x7f08000a;
+        public static final int ly_main_weixin=0x7f08000b;
         public static final int margin=0x7f080002;
+        public static final int radio0=0x7f080017;
+        public static final int radio1=0x7f080018;
+        public static final int radio2=0x7f080019;
+        public static final int radioGroup1=0x7f080016;
         public static final int right=0x7f080001;
         public static final int selected_view=0x7f080004;
-        public static final int slidingmenumain=0x7f08000c;
+        public static final int send_bytime_button=0x7f08001a;
+        public static final int send_rightnow_button=0x7f08001b;
+        public static final int send_time_txview=0x7f08001c;
+        public static final int slidingmenumain=0x7f080021;
+        public static final int sned_time_txview_show=0x7f08001d;
+        public static final int textView1=0x7f080015;
+        public static final int time_pick_button=0x7f08000f;
+        public static final int time_pick_textview=0x7f08000d;
+        public static final int time_pick_textview_show=0x7f08000e;
+        public static final int webo_content_textfield=0x7f080010;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int left_menu=0x7f030001;
         public static final int left_menu_frame=0x7f030002;
-        public static final int main_tab_01=0x7f030003;
-        public static final int main_tab_02=0x7f030004;
-        public static final int main_tab_03=0x7f030005;
-        public static final int right_menu=0x7f030006;
-        public static final int right_menu_frame=0x7f030007;
-        public static final int slidingmenumain=0x7f030008;
+        public static final int login=0x7f030003;
+        public static final int main_tab_01=0x7f030004;
+        public static final int main_tab_02=0x7f030005;
+        public static final int main_tab_03=0x7f030006;
+        public static final int right_menu=0x7f030007;
+        public static final int right_menu_frame=0x7f030008;
+        public static final int send_by_time=0x7f030009;
+        public static final int send_weibo=0x7f03000a;
+        public static final int slidingmenumain=0x7f03000b;
     }
     public static final class menu {
         public static final int main=0x7f090000;
     }
     public static final class string {
         public static final int action_settings=0x7f050004;
+        public static final int add_at_sign=0x7f050009;
+        public static final int add_expression=0x7f05000b;
+        public static final int add_pic=0x7f050008;
+        public static final int add_topic=0x7f05000a;
         public static final int app_name=0x7f050003;
+        public static final int choose_time_bt=0x7f050007;
         public static final int com_sina_weibo_sdk_login=0x7f050001;
         public static final int com_sina_weibo_sdk_login_with_weibo_account=0x7f050000;
         public static final int com_sina_weibo_sdk_logout=0x7f050002;
         public static final int hello_world=0x7f050005;
+        public static final int send_time=0x7f050006;
     }
     public static final class style {
         /** 
