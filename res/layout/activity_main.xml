@@ -16,8 +16,8 @@
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
             android:layout_marginLeft="3dp"
-            android:onClick="showLeftMenu"
-            android:background="@drawable/showright_selector" />
+            android:background="@drawable/showright_selector"
+            android:onClick="showLeftMenu" />
 
         <TextView
             android:layout_width="fill_parent"
@@ -35,15 +35,22 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_marginRight="3dp"
-             android:onClick="showRightMenu"
-            android:background="@drawable/showleft_selector" />
+            android:background="@drawable/showleft_selector"
+            android:onClick="showRightMenu" />
     </RelativeLayout>
 
-    <android.support.v4.view.ViewPager
-        android:id="@+id/id_viewpager"
+    <com.example.view.RefreshableView
+        android:id="@+id/refreshable_view"
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:layout_weight="1" >
-    </android.support.v4.view.ViewPager>
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="none" >
+        </ListView>
+    </com.example.view.RefreshableView>
 
 </LinearLayout>
